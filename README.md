@@ -11,7 +11,7 @@ Comando: *gcc keylogger.c -o keylogger*
 
 Comando: *./keylogger "Keyboard descriptor path" "Log file"*
 
-En el caso de no ser usuario root ejecutalo con la opción sudo: *sudo ./keylogger "Keyboard descriptor path "Log file"*
+En el caso de no ser usuario root ejecutalo con la opción sudo: *sudo ./keylogger "Keyboard descriptor path" "Log file"*
 
 NOTA: Para saber el "Keyboard descriptor path" usa el comando *ls /dev/input/by-id/* e identifica cual corresponde con el teclado USB.
 
